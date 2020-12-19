@@ -1,0 +1,43 @@
+0 verbose cli [
+0 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+0 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+0 verbose cli   'start'
+0 verbose cli ]
+1 info using npm@7.0.14
+2 info using node@v15.3.0
+3 timing config:load:defaults Completed in 2ms
+4 timing config:load:file:C:\Program Files\nodejs\node_modules\npm\npmrc Completed in 2ms
+5 timing config:load:builtin Completed in 2ms
+6 timing config:load:cli Completed in 3ms
+7 timing config:load:env Completed in 0ms
+8 timing config:load:file:C:\Users\Danish\Desktop\REACT PROJECTS\Router\my-app\.npmrc Completed in 0ms
+9 timing config:load:project Completed in 1ms
+10 timing config:load:file:C:\Users\Danish\.npmrc Completed in 1ms
+11 timing config:load:user Completed in 1ms
+12 timing config:load:file:C:\Users\Danish\AppData\Roaming\npm\etc\npmrc Completed in 0ms
+13 timing config:load:global Completed in 0ms
+14 timing config:load:cafile Completed in 1ms
+15 timing config:load:validate Completed in 0ms
+16 timing config:load:setUserAgent Completed in 1ms
+17 timing config:load:setEnvs Completed in 1ms
+18 timing config:load Completed in 12ms
+19 verbose npm-session e43206f29d680760
+20 timing npm:load Completed in 176ms
+21 timing command:run-script Completed in 254077ms
+22 timing command:start Completed in 256002ms
+23 verbose stack Error: command failed
+23 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\promise-spawn\index.js:64:27)
+23 verbose stack     at ChildProcess.emit (node:events:376:20)
+23 verbose stack     at maybeClose (node:internal/child_process:1055:16)
+23 verbose stack     at Process.ChildProcess._handle.onexit (node:internal/child_process:288:5)
+24 verbose pkgid my-app@0.1.0
+25 verbose cwd C:\Users\Danish\Desktop\REACT PROJECTS\Router\my-app
+26 verbose Windows_NT 10.0.18362
+27 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "start"
+28 verbose node v15.3.0
+29 verbose npm  v7.0.14
+30 error code 3221225786
+31 error path C:\Users\Danish\Desktop\REACT PROJECTS\Router\my-app
+32 error command failed
+33 error command C:\WINDOWS\system32\cmd.exe /d /s /c react-scripts start
+34 verbose exit 3221225786
